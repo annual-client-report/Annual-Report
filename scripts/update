@@ -1,0 +1,12 @@
+#!/usr/bin/sh
+
+cd ~/annual-client-report
+echo -n "Updating Server at" 
+eval `ssh-agent -s`
+ssh-add ~/.ssh/id_annual_report
+
+date
+git pull origin master
+echo -n "Updating Completed at" 
+date
+echo "You can now start the server again with ./run"

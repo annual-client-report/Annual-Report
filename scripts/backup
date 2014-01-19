@@ -1,0 +1,15 @@
+#!/usr/bin/sh
+
+
+
+cd ~/annual-client-report
+mkdir -p data/backup
+folder=`date`
+backup_dir="data/backup/$folder"
+export DATABASE_URL="postgres://postgres:TiaSP*S1@localhost:5432/postgres"
+for model in report person metadataperson metadatareport
+do
+    echo "Backup for $model"
+    mkdir -p "$backup_dir"
+    python manage.py dumpdata report."$model" --format json > "$backup_dir"/"$model.json" 
+done

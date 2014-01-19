@@ -1,0 +1,12 @@
+#!/usr/bin/sh
+
+ipconfig.exe  | grep "IPv4"
+export DATABASE_URL="postgres://postgres:TiaSP*S1@localhost:5432/postgres"
+cd ~/annual-client-report
+date >> log
+echo "------------------------------" >> log
+
+echo
+echo -n "Started Server at " 
+date
+python manage.py runserver 0.0.0.0:8000 2>> log 1>>log

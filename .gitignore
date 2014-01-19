@@ -1,0 +1,9 @@
+venv
+*.pyc
+staticfiles
+*.sqlite3
+*.swp
+admin/
+log
+*.json
+backup

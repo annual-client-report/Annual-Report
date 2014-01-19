@@ -1,0 +1,309 @@
+    1  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+    
+2  python
+    
+3  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+    
+4  heroku login
+    5  wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh 
+    
+6  wget https://toolbelt.heroku.com/install-ubuntu.sh 
+    
+7  man wget
+    
+8  wget https://toolbelt.heroku.com/install-ubuntu.sh 
+    
+9  wget https://toolbelt.heroku.com/install-ubuntu.sh --no-check-certificate
+   
+10  chmod +x install-ubuntu.sh 
+   
+11  ./install-ubuntu.sh 
+   
+12  cat  install-ubuntu.sh 
+   
+13  wget -qO- https://toolbelt.heroku.com/install.sh | sh
+   
+14  wget -qO- https://toolbelt.heroku.com/install.sh --no-check-certificate | sh
+   
+15  wget https://toolbelt.heroku.com/install.sh --no-check-certificate 
+   
+16  cat install
+   
+17  cat install.sh 
+   
+18  vim install.sh 
+   
+19  vi install.sh 
+   
+20  chmod +x install.sh 
+   
+21  ./install.sh 
+   
+22  ls
+   
+23  vi install.sh 
+   
+24  ls /usr/local/
+   
+25  ls /usr/local/heroku/
+   
+26  vi install.sh 
+   
+27  cd /usr/local/heroku/
+   
+28  wget https://s3.amazonaws.com/assets.heroku.com/heroku-client/heroku-client.tgz
+   
+29  wget https://s3.amazonaws.com/assets.heroku.com/heroku-client/heroku-client.tgz --no-check-certificate
+   
+30  ls
+   
+31  cd -
+   
+32  vi install
+   
+33  vi install.sh 
+   
+34  vi install.sh 
+   
+35  ./install.sh 
+   
+36  heroku
+   
+37  echo 'PATH="/usr/local/heroku/bin:$PATH"' >> ~/.profile
+   
+38  . ~/.profile 
+   
+39  heroku 
+   
+40  heroku login
+   
+41  heroku login
+   
+42  . ~/.profile 
+   
+43  heroku login
+   
+44  heroku login
+   
+45  heroku apps
+   
+46  git clone  git@heroku.com:annual-client-report.git
+   
+47  heroku help
+   48  heroku git:clone -a annual-client-report
+   
+49  ssh
+   
+50  pip install django
+   
+51  ls
+   
+52  pip install setuptools --no-use-wheel --upgrade
+   
+53  pip install django
+   
+54  easy_install -U setuptools
+   
+55  pip install --user sankaran django
+   
+56  pip install django --no-use-wheel --upgrade
+   
+57  ls
+   
+58  cd annual-client-report/
+   
+59  ls
+   
+60  psql "postgres://postgres:postgres@localhost:5432/postgres"
+   
+61  export DATABASE_URL="postgres://postgres:postgres@localhost:5432/postgres"
+   
+62  echo $DATABASE_URL
+   
+63  python manage.py syncdb
+   
+64  ls
+   
+65  ls annual_client_report/
+   
+66  pip install pip install django-toolbelt --no-use-wheel --upgrade
+   
+67  pip install django-toolbelt --no-use-wheel --upgrade
+   
+68  python manage.py syncdb
+   
+69  python manage.py runserver
+   
+70  ls
+   
+71  ls
+   
+72  ls data/
+   
+73  cd data/
+   
+74  python load.py load.csv 
+   
+75  python load.py load.csv  > load.json
+   
+76  cd ..
+   
+77  ls
+   
+78  python manage.py loaddata data/load.json 
+   
+79  python manage.py runserver
+   
+80  ssh -i '/cygdrive/c/Documents and Settings/Sankaran/My Documents/Downloads/develop/develop/1213_dev_keypair.pem' ubuntu@23.22.69.129
+   
+81  ls
+   
+82  git pull --rebase
+   
+83  ssh-add '/cygdrive/c/Documents and Settings/Sankaran/My Documents/Downloads/develop/develop/heroku_wenkat'
+   
+84  eval `ssh-agent -s`
+   
+85  ssh-add '/cygdrive/c/Documents and Settings/Sankaran/My Documents/Downloads/develop/develop/heroku_wenkat'
+   
+86  git pull --rebase
+   
+87  python manage.py runserver
+   
+88  psql "postgres://postgres:postgres@localhost:5432/postgres"
+   
+89  python manage.py runserver
+   
+90  vim
+   
+91  vim manage.py 
+   
+92  echo $PATH
+   
+93  vim manage.py 
+   
+94  find /usr/ -name django
+   
+95  ls /usr/lib/python2.7/site-packages/django/
+   
+96  vim manage.py 
+   
+97  ls /usr/lib/python2.7/site-packages/django/core/management/commands/
+   
+98  vim /usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py
+   
+99  vim /usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py
+  
+100  vim manage.py 
+  
+101  vim /usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py
+  
+102  vim /usr/lib/python2.7/site-packages/django/core/management/commands/runserver.py
+  
+103  vim /usr/lib/python2.7/site-packages/django/core/servers/basehttp.py
+  
+104  python manage.py runserver
+  
+105  fg
+  
+106  vim /usr/lib/python2.7/site-packages/django/core/servers/basehttp.py
+  
+107  which vim
+  
+108  python manage.py runserver
+  
+109  vim /usr/lib/python2.7/site-packages/django/core/servers/basehttp.py
+  
+110  python manage.py runserver
+  
+111  vim /usr/lib/python2.7/site-packages/django/core/servers/basehttp.py
+  
+112  fg
+  
+113  python manage.py runserver
+  
+114  fg
+  
+115  python manage.py runserver
+  
+116  fg
+  
+117  python manage.py runserver
+  
+118  fg
+  
+119  python manage.py runserver
+  
+120  fg
+  
+121  python manage.py runserver
+  
+122  fg
+  
+123  python manage.py runserver
+  
+124  python
+  
+125  fg
+  
+126  python manage.py runserver
+  
+127  vim /usr/lib/python2.7/site-packages/django/core/servers/basehttp.py
+  
+128  find /usr/lib/python2.7/site-packages/ -name wsgiref
+  
+129  vim /usr/lib/python2.7/site-packages/django/core/servers/basehttp.py
+  
+130  python manage.py runserver
+  
+131  fg
+  
+132  python manage.py runserver
+  
+133  fg
+  
+134  python manage.py runserver
+  
+135  fg
+  
+136  python manage.py runserver
+  
+137  fg
+  
+138  python manage.py runserver
+  
+139  fg
+  
+140  python manage.py runserver
+  
+141  fg
+  
+142  python manage.py runserver
+  
+143  fg
+  
+144  python manage.py runserver
+  
+145  fg
+  
+146  python manage.py runserver
+  
+147  fg
+  
+148  python manage.py runserver
+  
+149  fg
+  
+150  python manage.py runserver
+  
+151* 
+  
+152  fg
+  
+153  python manage.py runserver
+  
+154  :q
+  
+155  history 
+  
+156  history > install_hist
