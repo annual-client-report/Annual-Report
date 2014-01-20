@@ -161,7 +161,7 @@ class ReportAdmin(admin.ModelAdmin):
                                     'demand_raised_amount_143_1', 
                                     'refund_received_on_143_1'
                                 ]}),
-        ('Order 143(2)',      {
+        ('Notice 143(2)',      {
                                 'classes':('collapse',), 
                                 'fields': 
                                 [
